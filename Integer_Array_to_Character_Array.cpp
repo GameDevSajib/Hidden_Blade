@@ -22,11 +22,13 @@ int main(){
             int k = 0;
             while (val != 0)
             {
-                digits[k++] = val % 10;
+                digits[k] = val % 10;
                 val /= 10;
+                k++;
             }
             for (int j = k - 1; j >= 0; j--) {
-                crr[l++] = digits[j] + '0';
+                crr[l] = digits[j] + '0';
+                l++;
             }
                 crr[l++] = ' ';
      }
