@@ -86,6 +86,7 @@ int main()
     while(t--)
     {
         ll a,b,n;
+        ///a hosse fibo nacci series er first value r b hosse second value
         cin>>a>>b>>n;
         solve(a,b,n);
     }
